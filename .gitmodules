@@ -118,3 +118,9 @@
 [submodule "bundle/vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
 	url = git://github.com/terryma/vim-multiple-cursors.git
+[submodule "bundle/vim-puppet"]
+	path = bundle/vim-puppet
+	url = git://github.com/rodjek/vim-puppet.git
+[submodule "bundle/taskpaper"]
+	path = bundle/taskpaper
+	url = git@github.com:davidoc/taskpaper.vim.git
