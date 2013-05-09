@@ -1,6 +1,6 @@
 set guioptions=ce
 set antialias
-colorscheme rails_envy
+colorscheme molokai
 set linespace=2
 
 if has("gui_macvim")
@@ -43,3 +43,5 @@ if has("gui_macvim")
   endfor
 
 endif
+
+set nowrap
