@@ -12,4 +12,4 @@ function! ToggleCalendar()
   end
 endfunction
 
-map <F1> :call ToggleCalendar()<CR>
+"map <F1> :call ToggleCalendar()<CR>

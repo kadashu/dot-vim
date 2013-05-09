@@ -4,7 +4,7 @@ set history=1000                      " keep 1000 lines of command line history
 set undolevels=100
 set ruler                             " show the cursor position all the time
 set autoread                          " auto read when file is changed from outside
-set wrap
+"set wrap
 set linebreak
 set nolist
 set hidden
@@ -41,7 +41,7 @@ set incsearch                         " incremental search
 syntax enable
 set t_Co=256
 try
-  colorscheme rails_envy
+  colorscheme molokai
 catch
 endtry
 
@@ -95,8 +95,8 @@ autocmd BufWritePre * :%s/\s\+$//e
 map <Leader><Leader> <Leader>c<space>
 
 " next and prev tab
-noremap <F7> gT
-noremap <F8> gt
+noremap <F3> gT
+noremap <F4> gt
 
 " identation
 nmap <TAB> v>
