@@ -17,5 +17,3 @@ noremap <CR> :nohlsearch<CR>
 
 " select ALL
 map <C-A> ggVG
-
-set nowrap
