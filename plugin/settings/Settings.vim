@@ -6,7 +6,14 @@ set ruler                             " show the cursor position all the time
 set autoread                          " auto read when file is changed from outside
 set nowrap
 set linebreak
-set nolist
+
+set list
+set listchars=" "                     " Reset the listchars
+set listchars=tab:\ \
+set listchars+=trail:.
+set listchars+=extends:>
+set listchars+=precedes:<
+
 set hidden
 set linespace=0
 set cursorline
