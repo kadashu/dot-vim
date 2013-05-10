@@ -1,4 +1,6 @@
 nnoremap <silent> <F2> :NERDTreeMirrorToggle<CR>
+map <leader>n :NERDTreeMirrorToggle<cr>
+
 let NERDTreeShowBookmarks=0
 let NERDTreeChDirMode=2
 let NERDTreeMouseMode=2
