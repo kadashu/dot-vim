@@ -127,3 +127,6 @@
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch.git
+[submodule "bundle/vim-buffergator"]
+	path = bundle/vim-buffergator
+	url = git@github.com:jeetsukumaran/vim-buffergator.git
