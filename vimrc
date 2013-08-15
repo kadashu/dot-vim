@@ -17,3 +17,7 @@ noremap <CR> :nohlsearch<CR>
 
 " select ALL
 map <C-A> ggVG
+
+nnoremap <F8> :set invpaste paste?<CR>
+imap <F8> <C-O>:set invpaste paste?<CR>
+set pastetoggle=<F8>
