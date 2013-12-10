@@ -9,7 +9,7 @@ set linebreak
 
 set list
 set listchars=" "                     " Reset the listchars
-set listchars=tab:\ \
+set listchars=tab:▸\ 
 set listchars+=trail:.
 set listchars+=extends:>
 set listchars+=precedes:<
