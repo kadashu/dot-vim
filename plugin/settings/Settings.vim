@@ -4,12 +4,19 @@ set history=1000                      " keep 1000 lines of command line history
 set undolevels=100
 set ruler                             " show the cursor position all the time
 set autoread                          " auto read when file is changed from outside
-set nowrap
+" set nowrap
 set linebreak
 
 set list
 set listchars=" "                     " Reset the listchars
-set listchars=tab:▸\ 
+"set listchars=tab:▸\ ,eol:↩
+"set listchars=tab:↝\ ,eol:↵
+"set listchars=tab:⋮\ ,eol:⇣
+set listchars=tab:⋮\ ,eol:⇙
+"set listchars=tab:⋮\ ,eol:⋰
+"set listchars=tab:⋮\ ,eol:◂
+"set listchars=tab:⋮\ ,eol:↯
+"set listchars=tab:⋮\ ,trail:.
 set listchars+=trail:.
 set listchars+=extends:>
 set listchars+=precedes:<
@@ -120,3 +127,6 @@ cnoremap %% <C-R>=expand('%:h').'/'<CR>
 " quick open vimrc in a new tab
 nmap <leader>v :tabe $MYVIMRC<CR>
 map <leader>0 :topleft 100 :split README.md<CR>
+
+nmap <silent> <F10>   <Plug>GoldenViewSwitchMain
+nmap <silent> <S-F10> <Plug>GoldenViewSwitchToggle
